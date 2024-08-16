@@ -11,7 +11,11 @@ export const Navbar = () => {
 
         <nav className={styles.navbar}>
             <a className={styles.title} href="/">
-                Portfolio
+                <img
+                    className={styles.logo}
+                    src={getImageUrl('nav/logo.png')}
+                    alt="AKK logo"
+                />
             </a>
             <div className={styles.menu}>
                 <img

@@ -16,7 +16,10 @@
     text-decoration: none;
     color: var(--color-text);
 }
-
+.logo {
+    height: 100px;
+    width: 100px;
+}
 .menu {
     display: flex;
 }
@@ -32,7 +35,9 @@
     color: var(--color-text);
     text-decoration: none;
 }
-
+.menuBtn {
+    display: none;
+}
 @media screen and (max-width: 830px) {
     .navbar {
         flex-direction: column;
@@ -50,7 +55,7 @@
     }
 
     .menuBtn {
-        display: block;
+        display: flex;
         cursor: pointer;
     }
 
