@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Most recent portfolio",
+    "imageSrc": "projects/project.png",
+    "description": "This is my second attempt at creating a personal portfolio",
+    "skills": ["React", "HTML", "CSS", "JavaScript"],
+    "source": "https://github.com/AbishkaKK/personal-portfolio"
+  },
+  {
+    "title": "My first portfolio",
+    "imageSrc": "projects/project.png",
+    "description": "This is my first attempt at creating a personal portfolio",
+    "skills": ["HTML", "CSS", "JavaScript", "PHP"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/AbishkaKK/my-first-portfolio"
+  }
+]
