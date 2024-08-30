@@ -11,18 +11,12 @@ const Hero = () => {
                     Business Analytics and minoring in Computer Information
                     Systems (CIS). Reach out if you'd like to connect with me!
                 </p>
-                <a
-                    href="mailto:abishkakrishnakumar@gmail.com"
-                    className={styles.contactBtn}
-                >
-                    Contact Me
-                </a>
             </div>
-            <img
-                src={getImageUrl('hero/heroImage.png')}
-                alt="Hero image of me"
-                className={styles.heroImg}
-            />
+            {/* <img
+                src={getImageUrl('hero/profile.jpg')}
+                alt="Image of me"
+                className={styles.img}
+            /> */}
             <div className={styles.topBlur} />
             <div className={styles.bottomBlur} />
         </section>

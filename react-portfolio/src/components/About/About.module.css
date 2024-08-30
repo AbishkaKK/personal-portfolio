@@ -24,9 +24,7 @@
     flex-direction: row;
     align-items: center;
 }
-.aboutImage {
-    width: 35%;
-}
+
 .aboutItems {
     color: var(--color-text);
     display: flex;
@@ -73,9 +71,6 @@
     }
     .content {
         flex-direction: column;
-    }
-    .aboutImage {
-        display: none;
     }
     .aboutItems {
         margin-top: 29px;
