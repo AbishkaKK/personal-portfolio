@@ -6,11 +6,6 @@ const About = () => {
         <section className={styles.container} id="about">
             <h2 className={styles.title}>About</h2>
             <div className={styles.content}>
-                <img
-                    src={getImageUrl('about/aboutImage.png')}
-                    alt="Me sitting with a laptop"
-                    className={styles.aboutImage}
-                />
                 <ul className={styles.aboutItems}>
                     <li className={styles.aboutItem}>
                         <img
@@ -38,9 +33,9 @@ const About = () => {
                             <h3>UI SWE Intern</h3>
                             <p>
                                 I interned as a User Interface Software Engineer
-                                in Summer 2024. In my time as an intern, I
+                                in Summer 2024. During my time as an intern, I
                                 developed user interface components using HTML,
-                                CSS, JavaScript, and React. I deepened my
+                                CSS, TypeScript, and React. I deepened my
                                 understanding of Agile practices and improved my
                                 ability to collaborate effectively with
                                 cross-functional teams.
